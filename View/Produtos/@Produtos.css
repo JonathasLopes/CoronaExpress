@@ -1,0 +1,41 @@
+@media only screen and (max-width: 767px){
+    #seta img{
+        display: none;
+    }
+
+    .imgdesc{
+        display: block;
+    }
+
+    .descEst{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .but{
+        flex-direction: column;
+    }
+
+    .button{
+        position: inherit;
+        margin-top: 5vh;
+    }
+
+    .quantidade-produtos input{
+        height: 6vh;
+    }
+
+    .quantidade-produtos button{
+        height: 6vh;
+    }
+
+    .vendedor{
+        position: inherit;
+        margin-top: 2vh;
+        font-size: 10px;
+    }
+
+    .estoque{
+        display: none;
+    }
+}

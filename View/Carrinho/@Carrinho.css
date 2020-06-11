@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767px){
+
+    .lista{
+        position: inherit;
+        margin-top: 5vh;
+    }
+
+    .list{
+        height: 100%;
+        width: 100%;
+    }
+
+    #comprar,
+    #cancelar{
+        margin-right: 1vw;
+        width: 50%;
+        height: 5vh;
+    }
+
+    .botoes{
+        display: flex;
+    }
+
+    #Mens{
+        font-size: 22px;
+        padding-top: 2vh;
+    }
+}

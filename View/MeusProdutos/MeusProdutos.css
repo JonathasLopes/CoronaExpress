@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    color: #04BA55;
+    margin-bottom: 5vh;
+}
+
+.lata{
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 2vw;
+    bottom: 2vh;
+}
+
+.lata img{
+    width: 30px;
+}
+
+.card{
+    background-color: white;
+    color: black;
+}
+
+main{
+    margin-left: 0;
+}
+
+#Mens{
+    margin-left: 10vw;
+    font-size: 30px;
+}
+
+.lapis{
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+
+.lata:focus,
+.lapis:focus{
+    outline: none;
+}
+
+
+.lapis img{
+    width: 25px;
+}
+
+
+#seta img{
+    width: 50px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}

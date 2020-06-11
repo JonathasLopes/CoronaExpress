@@ -1,0 +1,57 @@
+#title{
+    margin-top: 4vh;
+    color:#04BA55;
+    text-align: center;
+    margin-bottom: 6vh;
+    font-weight: bold;
+}
+
+#descricao{
+    height: 20vh;
+}
+
+#Cancelar,
+#Cadastrar{
+    margin-top: 2vh;
+    width: 150px;
+    margin-bottom: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a img{
+    margin-top: 5vh;
+    width: 50px;
+}
+
+a img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

@@ -1,0 +1,74 @@
+#title{
+    margin-top: 10vh;
+    font-weight: bold;
+}
+
+#Password{
+    display: flex;
+}
+
+#Password input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.button{
+    text-align: center;
+}
+
+#entrar{
+    margin-top: 2vh;
+    width: 150px;
+}
+
+.esqueciSenha{
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.esqueciSenha a{
+    color: white;
+}
+
+form{
+    padding: 0 10vw;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a img{
+    margin-top: 5vh;
+    width: 50px;
+}
+
+a img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1{
+    margin: 0vh 0 5vh;
+    text-align: center;
+    color: #04BA55;
+}
+
+#buttons{
+    text-align: center;
+    margin-bottom: 12vh;
+    margin-top: 5vh;
+    margin-left: 0.5vw;
+}
+#Password{
+    display: flex;
+}
+
+#InputSenha{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 100%;
+}

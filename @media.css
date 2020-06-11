@@ -1,0 +1,119 @@
+@media only screen and (max-width: 767px){
+    main{
+        margin-left: 0vw;
+        margin-right: 3%;
+    }
+
+    #navbarSupportedContent form input{
+        width: 83.5%;
+        border-radius: 5px 0 0 5px;
+    }
+
+    #navbar_itens,
+    #navImg{
+        display: none;
+    }
+
+    #log,
+    #navCarrinho,
+    #nav_Img{
+        display: inherit;
+    }
+
+    #log{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #log a{
+        color: white;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding: 1vh 2vw;
+    }
+
+    #log a:hover{
+        text-decoration: none;
+        background-color: #04BA55;
+    }
+
+    #nav_Img img{
+        width: 150px;
+    }
+
+    #nav_Img{
+        margin-left: 5vw;
+    }
+
+    #navCarrinho{
+        display: inline-flex;
+        color: white;
+    }
+
+    #navCarrinho img{
+        width: 25px;
+    }
+
+    #mensagem{
+        font-size: 1.5em;
+        position: relative;
+    }
+
+    #about{
+        margin-top: 6vh;
+    }
+
+    #Sobre{
+        width: 100%;
+        margin: 0;
+    }
+
+    .map{
+        margin: 0;
+    }
+
+    .map iframe{
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .mvv{
+        flex-wrap: wrap;
+    }
+
+    .group{
+        margin: 0;
+    }
+
+    .subtitulo{
+        margin-left: 6vw;
+    }
+
+    .wCard{
+        width: 100%;
+    }
+
+    .social_Media a{
+        margin-right: 4vw;
+    }
+    
+    .social_Media a:last-child{
+        margin-right: 0;
+    }
+
+    .social_Media a img{
+        width: 50px;
+    }
+
+    #Mens{
+        font-size: 10px;
+        margin-left: 0vw;
+        margin-top: 5vh;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        padding: 0 2vw;
+        font-size: 3vw;
+    }
+}

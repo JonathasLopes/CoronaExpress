@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    color: #04BA55;
+}
+
+.imgdesc{
+    display: flex;
+    padding: 5px 15px;
+}
+
+.imgpreco p{
+    margin-top: 10px;
+}
+
+.descEst{
+    text-align: left;
+    margin-left: 25px;
+}
+
+main{
+    margin-top: 10vh;
+    margin-left: 0;
+    margin-bottom: 7vh;
+}
+
+.but{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    background-color: #28a745;
+    border: none;
+    color: white;
+    width: 50px;
+    height: 4vh;
+}
+
+.buttons:focus{
+    outline: none;
+}
+
+.button{
+    position: absolute;
+    right: 2vw;
+}
+
+.quantidade-produtos input{
+    height: 4vh;
+    text-align: center;
+}
+
+.card{
+    background-color: #E1E1E1;
+    color: black;
+}
+
+.vendedor{
+    position: absolute;
+    left: 1vw;
+    bottom: 2vh;
+    font-size: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#Mens{
+    font-size: 30px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#seta img{
+    width: 50px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}

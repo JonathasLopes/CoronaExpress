@@ -1,0 +1,56 @@
+a img{
+    margin-top: 5vh;
+    width: 50px;
+}
+
+a img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h1{
+    margin: 0vh 0 5vh;
+    text-align: center;
+    color: #04BA55;
+}
+
+#buttons{
+    text-align: center;
+    margin-bottom: 12vh;
+    margin-top: 5vh;
+    margin-left: 0.5vw;
+}
+#Password{
+    display: flex;
+}
+
+#InputSenha{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 100%;
+}
+
+#title{
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+
+#buttons button:last-child{
+    margin-left: 0.5vw;
+}
+
+form span{
+    margin-left: 0.5vw;
+    color: gray;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 767px){
+    a img{
+        margin-top: 0vh;
+        margin-bottom: 2vh;
+        width: 50px;
+    }
+}
