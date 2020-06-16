@@ -38,7 +38,10 @@
                             </div>';
                             if(!isset($_SESSION['logado'])){
                                 echo '<button id="buy" class="btn btn-success button">Comprar</button>
-                                <span class="vendedor">Vendido por: <b>'.$vetor->$i->getUserName().' '.$vetor->$i->getUserLast().'</b></span>';
+                                <span class="vendedor">Vendido por: <b>'.$vetor->$i->getUserName().' '.$vetor->$i->getUserLast().'</b></span>
+                                </div>
+                            </div>
+                     </div>';
                             }else{
                             echo '
                         <button id="comprar" onClick="enviaCarrinho('.$i.','.$vetor->$i->getID().')" class="btn btn-success button">Comprar</button>

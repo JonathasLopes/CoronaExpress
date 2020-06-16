@@ -34,7 +34,12 @@
     <?php include '../../Usavel/Header.php'?>
     <main>
         <div class="container-fluid">
-            <a href="../Principal/Logado.php" id="seta">
+        <?php if(!isset($_SESSION['logado'])){
+            echo '<a href="../../index.php" id="seta">';
+        } else{
+            echo '<a href="../Principal/Logado.php" id="seta">';
+        }
+         ?>
                 <img src="../../Assets/keyboard_backspace-24px.svg" alt="Voltar para Pagina Inicial">
             </a>
             <h1><?php echo "$categoria" ?></h1>

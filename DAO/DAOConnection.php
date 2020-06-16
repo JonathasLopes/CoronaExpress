@@ -6,7 +6,7 @@
             $host = '127.0.0.1';
             $banco = 'Ecommerce';
             $usuario = 'root';
-            $senha = '123456';
+            $senha = 'Jmal08082000';
             $bd = "mysql:host=$host;dbname=$banco";
 
             try{
